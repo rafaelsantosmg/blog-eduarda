@@ -8,24 +8,15 @@ let cont = 1
 let disableFadeIn = 0
 
 btnSaibaMais.addEventListener('click', function() {
-    if (disableFadeIn === 0) {
-        $(".container").fadeIn(1000);
-    } else {
-        container.style.display = 'block'
-    }
+    container.style.display = 'block'
     document.getElementById('divBotaoProx').style.display = 'block'
     btnSaibaMais.style.display = 'none'
 })
 
 btnProx.addEventListener('click', function() {
     cont += 1
-    container.style.display = 'none'
+    container.style.display = 'block'
     document.getElementById('divBotaoVoltar').style.display = 'block'
-    if (disableFadeIn === 0) {
-        $(".container").fadeIn(1000);
-    } else {
-        container.style.display = 'block'
-    }
     if (cont === 2) {
         btnVoltar.style.display = 'block'
         h1.innerHTML = 'Mais conhecido como <strong><em><a href="https://www.netflix.com/br/title/80027042" target="_blank">The Flash!</a></em></strong>'
@@ -43,13 +34,8 @@ btnProx.addEventListener('click', function() {
 
 btnVoltar.addEventListener('click', function() {
     cont -= 1
-    container.style.display = 'none'
+    container.style.display = 'block'
     h1.innerText = 'Você sabe quem é Barry Allen?'
-    if (disableFadeIn === 0) {
-        $(".container").fadeIn(1000);
-    } else {
-        container.style.display = 'block'
-    }
     if (cont === 1) {
         btnVoltar.style.display = 'none'
         h1.innerHTML ='Você sabe quem é <strong><em>Barry Allen?</em></strong>'
