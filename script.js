@@ -8,7 +8,7 @@ let cont = 1
 let disableFadeIn = 0
 
 btnSaibaMais.addEventListener('click', function() {
-    $(".container").fadeIn(1000)
+    container.style.display = 'block'
     document.getElementById('divBotaoProx').style.display = 'block'
     btnSaibaMais.style.display = 'none'
 })
