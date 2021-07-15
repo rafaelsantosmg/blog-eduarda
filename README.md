@@ -1,2 +1,1 @@
-# https://rafaelsantosmg.github.io/blog-eduarda/
-# blog-eduarda
+# projeto_blog_duda
