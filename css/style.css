@@ -16,7 +16,7 @@ strong {
     color: yellow;
 }
 
-#textos {
+#titulos {
     background-image: url('../imagens/fundodiv.jpg');
     background-size: 100%;
     border-radius: 15px;
@@ -30,7 +30,7 @@ strong {
     text-shadow: 3px 3px 5px red;
 }
 
-#textos h1:hover {
+#titulos h1:hover {
     box-shadow: 0px 0px 20px yellow;
     border-radius: 15px;
     transition: 0.5s;
@@ -112,9 +112,9 @@ strong {
     display: block;
 }
 
-/* Códigos da div Barry Allen. */
+/* Códigos da div textos das paginas. */
 
-#barry_allen {
+#textos {
     display: none;
     background-image: url('../imagens/fundodiv.jpg');
     background-color: red;
@@ -125,7 +125,7 @@ strong {
     border-radius: 50px;
 }
 
-#barry_allen p {
+#textos p {
     color: yellow;
     text-align: justify;
     text-indent: 50px;

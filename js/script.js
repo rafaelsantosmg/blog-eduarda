@@ -6,7 +6,7 @@ let alterimg = document.getElementById('idImg')
 let h1 = document.getElementById('idH1')
 let cont = 1
 let disableFadeIn = 0
-let divBarryAllen = document.getElementById('barry_allen')
+let divBarryAllen = document.getElementById('textos')
 
 btnSaibaMais.addEventListener('click', function() {
     container.style.display = 'block'
