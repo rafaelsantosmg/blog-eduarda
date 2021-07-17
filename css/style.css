@@ -111,3 +111,95 @@ strong {
 #divBotaoSaibaMais {
     display: block;
 }
+
+/* Códigos da div Barry Allen. */
+
+#barry_allen {
+    display: none;
+    background-image: url('../imagens/fundodiv.jpg');
+    background-color: red;
+    font: 30px arial;
+    width: 80%;
+    height: 80%;
+    margin: 10px auto 10px auto;
+    border-radius: 50px;
+}
+
+#barry_allen p {
+    color: yellow;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 30px;
+}
+
+/* Códigos da div Flash. */
+
+/* Códigos da div Flash Reverso. */
+
+#flash_reverso {
+    display: none;
+}
+
+#flash_reverso p {
+    color: white;
+}
+
+/* Códigos da div Zoom */
+
+#zoom {
+    display: none;
+}
+
+#zoom p {
+    color: white;
+}
+
+/* Códigos da div Savitar. */
+
+#savitar {
+    display: none;
+}
+
+#savidar p {
+    color: white;
+}
+
+/* Códigos da div Devoe. */
+
+#devoe {
+    display: none;
+}
+
+#devoe p {
+    color: white;
+}
+
+/* Códigos da div Cicada. */
+
+#cicada {
+    display: none;
+}
+
+#cicada p {
+    color: white;
+}
+
+/* Códigos da div Hemoglobina. */
+
+#hemoglobina {
+    display: none;
+}
+
+#hemoglobina p {
+    color: white;
+}
+
+/* Códigos da div Mestre dos Espelhos. */
+
+#mestre_dos_espelhos {
+    display: none;
+}
+
+#mestre_dos_espelhos p {
+    color: white;
+}

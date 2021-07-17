@@ -6,11 +6,13 @@ let alterimg = document.getElementById('idImg')
 let h1 = document.getElementById('idH1')
 let cont = 1
 let disableFadeIn = 0
+let divBarryAllen = document.getElementById('barry_allen')
 
 btnSaibaMais.addEventListener('click', function() {
     container.style.display = 'block'
     document.getElementById('divBotaoProx').style.display = 'block'
     btnSaibaMais.style.display = 'none'
+    divBarryAllen.style.display = 'block'
 })
 
 btnProx.addEventListener('click', function() {
