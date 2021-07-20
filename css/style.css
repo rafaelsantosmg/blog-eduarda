@@ -6,6 +6,18 @@ body {
     background-size: cover;
 }
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transition: 2s;
+    }
+  
+    to {
+      opacity: 1;
+      transition: 2s;
+    }
+  }
+
 a {
     text-decoration: underline;
     color: yellow;
@@ -36,20 +48,7 @@ strong {
     transition: 0.5s;
 }
 
-#txtFlash {
-    display: none;
-}
-
-#txtFlashLuta {
-    display: none;
-}
-
-#txtViloes {
-    display: none;
-}
-
 .container {
-    display: none;
     width: 100%;
     height: 100%;
 }
@@ -61,12 +60,14 @@ strong {
 }
 
 .imagens img {
+    animation-duration: 2s;
+    animation-name: fadeIn;
     border-radius: 30px;
     width: 100%;
     height: 100%;
 }
 
-#btnSaibaMais {
+.botoes div button {
     background-image: url('../imagens/fundodiv.jpg');
     color: yellow;
     padding: 10px 20px;
@@ -77,45 +78,23 @@ strong {
     border-radius: 25px;
 }
 
-#btnProx {
-    background-image: url('../imagens/fundodiv.jpg');
-    color: yellow;
-    padding: 10px 20px;
-    text-align: right;
-    text-shadow: 5px 5px 8px red;
-    display: block;
-    font-size: 25px;
-    border-radius: 25px;    
-}
-
-#btnVoltar {
-    background-image: url('../imagens/fundodiv.jpg');
-    color: yellow;
-    padding: 10px 20px;
-    text-align: left;
-    text-shadow: 5px 5px 8px red;
-    display: block;
-    font-size: 25px;
-    border-radius: 25px;
-}
 #divBotaoProx {
-    display: none;
     float: right;
 }
 
 #divBotaoVoltar {
-    display: none;
     float: left;
 }
 
 #divBotaoSaibaMais {
-    display: block;
+    float: left;
 }
 
 /* Códigos da div textos das paginas. */
 
 #textos {
-    display: none;
+    animation-duration: 2s;
+    animation-name: fadeIn;
     background-image: url('../imagens/fundodiv.jpg');
     background-color: red;
     font: 30px arial;
