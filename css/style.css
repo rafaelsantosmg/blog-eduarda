@@ -1,3 +1,5 @@
+/* Conteúdo do Corpo. */
+
 body {
     background: rgb(165, 154, 154);
     background-image: url('../imagens/background.jpg');
@@ -18,10 +20,6 @@ body {
     }
   }*/
 
-p {
-
-}
-
 a {
     text-decoration: underline;
     color: yellow;
@@ -32,6 +30,8 @@ strong {
     color: yellow;
 }
 
+/* Área de Títulos. */
+
 #titulos {
     background-image: url('../imagens/fundodiv.jpg');
     background-size: 100%;
@@ -39,9 +39,9 @@ strong {
     width: 100%;
     height: 100%;
     align-items: center;
-    font: normal 15pt Arial;
+    font: normal 10pt Arial;
     color: rgb(177, 177, 32);
-    line-height: 100px;
+    line-height: 50px;
     text-align: center;
     text-shadow: 3px 3px 5px red;
 }
@@ -52,17 +52,19 @@ strong {
     transition: 0.5s;
 }
 
+/* Área de Container. */
+
 #container {
     width: 100%;
     height: 100%;
 }
 
+/* Área de Imagens. */
+
 #imagens img {
     width: 300px;
     height: 300px;
-    float: left;
-    padding-left: 0px;
-    padding-right: -10px;
+    float: right;
     animation-duration: 2s;
     animation-name: fadeIn;
     border-radius: 30px;
@@ -74,26 +76,49 @@ strong {
     height: 100%;
 }
 
+/* Área de Botões. */
+
+#botoes {
+    padding-top: 20px;
+}
+
 #botoes div button {
     background-image: url('../imagens/fundodiv.jpg');
     color: yellow;
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-align: center;
     text-shadow: 5px 5px 8px red;
-    display: block;
-    font-size: 25px;
+    font-size: 15px;
     border-radius: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
 }
 
 #divBotaoProx {
     float: right;
 }
 
+#btnProx:before {
+    content: '';
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 64px;
+    background: rgba(red, green, blue, 0.3);
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+
+#btnProx:hover::before {
+    width: 100%;
+}
+
 #divBotaoVoltar {
     float: left;
 }
 
-/* Códigos da div textos das paginas. */
+/* Área de Textos das Paginas. */
 
 #textos {
     animation-duration: 2s;
@@ -105,11 +130,12 @@ strong {
     height: 80%;
     margin: auto;
     border-radius: 20px;
+    padding: 1px;
 }
 
 #textos p {
     color: yellow;
     text-align: justify;
     text-indent: 30px;
-    padding: 1rem;
+    margin: 10px 10px 10px 10px;
 }

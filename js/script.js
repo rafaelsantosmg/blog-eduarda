@@ -9,7 +9,7 @@ let disableFadeIn = 0
 let divBarryAllen = document.getElementById('textos')
 
 function entraMouse() {
-    alterimg.src = "imagens/flash.jpg"
+    setTimeout(function() {alterimg.src = "imagens/flash.jpg"}, 1500)
 }
 
 function sairMouse() {
