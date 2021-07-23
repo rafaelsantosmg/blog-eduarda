@@ -8,14 +8,6 @@ let cont = 1
 let disableFadeIn = 0
 let divBarryAllen = document.getElementById('textos')
 
-function entraMouse() {
-    setTimeout(function() {alterimg.src = "imagens/flash.jpg"}, 1500)
-}
-
-function sairMouse() {
-    alterimg.src = "imagens/barryallen.jpg"
-}
-
 btnSaibaMais.addEventListener('click', function() {
     container.style.display = 'block'
     document.getElementById('divBotaoProx').style.display = 'block'
