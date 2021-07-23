@@ -78,7 +78,7 @@ strong {
 #botoes div button {
     background-image: url('../imagens/fundodiv.jpg');
     color: yellow;
-    padding: 5px 10px;
+    padding: 10px 20px;
     text-align: center;
     text-shadow: 5px 5px 8px red;
     font-size: 15px;
@@ -90,21 +90,6 @@ strong {
 
 #divBotaoProx {
     float: right;
-}
-
-#btnProx:before {
-    content: '';
-    top: 0px;
-    left: 0px;
-    width: 0px;
-    height: 64px;
-    background: rgba(red, green, blue, 0.3);
-    border-radius: 10px;
-    transition: all 2s ease;
-}
-
-#btnProx:hover::before {
-    width: 100%;
 }
 
 #divBotaoVoltar {
