@@ -64,10 +64,9 @@ strong {
 #imagens img {
     width: 100%;
     height: 100%;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: fadeIn;
     border-radius: 30px;
-    padding: 1rem;
 }
 
 /* Área de Botões. */
