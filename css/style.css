@@ -14,6 +14,16 @@ body {
     background-size: cover;
 }
 
+a {
+        text-decoration: none;
+        color: yellow;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -24,11 +34,6 @@ body {
       opacity: 1;
       transition: 2s;
     }
-  }
-
-a {
-    text-decoration: underline;
-    color: yellow;
 }
 
 strong {
@@ -51,11 +56,12 @@ strong {
 /* Área de Títulos. */
 
 #titulos {
+    margin: 15px 10% 15px 10%;
     background-image: url('../imagens/fundodiv.jpg');
     background-size: 100%;
     border-radius: 15px;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     align-items: center;
     font: normal 10pt Arial;
     color: rgb(177, 177, 32);
@@ -70,6 +76,10 @@ strong {
     transition: 0.5s;
 }
 
+#titulos a {
+
+}
+
 /* Área de Container. */
 
 .interface {
@@ -78,8 +88,9 @@ strong {
 }
 
 #container {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin: auto;
 }
 
 /* Área de Imagens. */
@@ -103,11 +114,8 @@ strong {
     color: yellow;
     padding: 10px 20px;
     text-align: center;
-    text-shadow: 5px 5px 8px red;
     font-size: 15px;
     border-radius: 25px;
-    box-sizing: border-box;
-    cursor: pointer;
 }
 
 #divBotaoProx {
@@ -128,7 +136,7 @@ strong {
     background-repeat: no-repeat;
     background-size: cover;
     font: 15px arial;
-    width: 100%;
+    width: 80%;
     height: 80%;
     margin: auto;
     border-radius: 20px;
@@ -157,7 +165,6 @@ strong {
 }
 
 .menu ul li {
-	width:260px;
 	float:left;
     padding: 15px;
     background-color: rgb(88, 1, 1);
@@ -224,8 +231,13 @@ label[for='bt_menu']:hover {
 /* Formatação do Menu Responsivo */
 
 @media (max-width: 800px) {
+    #titulos {
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+
     .menu{
-        margin-left:-100%;
+        margin-left:-110%;
         transition:all .4s;
     }
 
