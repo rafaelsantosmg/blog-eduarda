@@ -8,16 +8,43 @@
     <title>Meu Primeiro BLOG</title>
 </head>
 <body>
-    <div id="titulos">
-        <h1 id="idH1">Você sabe quem é <strong><em>Barry Allen?</em></strong></h1>
-    </div>
-    
-    <div id="botoes">
-        <div id="divBotaoSaibaMais">
-            <button id='btnSaibaMais' style="float: inline-start;"><a href="flash.html">Saiba Mais!!!</a></button>
+    <header class="cabecalho">
+        <nav id="menu_principal">
+            <h1>Menu Principal</h1>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Histórias dos Personagens
+                    <ul>
+                        <li><a href="flash.html">Flash</a></li>
+                    </ul>
+                </li>
+                <li>Vilões
+                    <ul>
+                        <li><a href="flash_reverso.html">Flash Reverso</a></li>
+                        <li><a href="zoom.html">Zoom</a></li>
+                        <li><a href="savitar.html">Savitar</a></li>
+                        <li><a href="devoe.html">Devoe</a></li>
+                        <li><a href="cicada.html">Cicada</a></li>
+                        <li><a href="hemoglobina.html">Hemoglobina</a></li>
+                        <li><a href="mestredosespelhos.html">Mestre dos Espelhos</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="interface">
+        <div id="titulos">
+            <h1 id="idH1">Você sabe quem é <strong><em>Barry Allen?</em></strong></h1>
+        </div>
+
+        <div id="container">
+            <figure id="imagens">
+                <img id="idImg" src="imagens/barryallen.jpg";">
+            </figure>
         </div>
     </div>
-    
+
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
